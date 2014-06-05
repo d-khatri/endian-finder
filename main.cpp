@@ -2,6 +2,8 @@
 //this one for second commit
 #include <iostream>
 #include <cstdio>
+#include <vector>
+#include <cstdio>
 using namespace std;
 
 int main()
@@ -10,8 +12,8 @@ int main()
    int integer=0x303132;
    char* p;
    p=(char*)&integer;
-   if(*p=='0')cout<<"big\n"<<endl;
-   else if(*p=='2') cout<<"small\n";
+   if(*p=='0')cout<<"big endian \n"<<endl;
+   else if(*p=='2') cout<<"small endian\n";
    else cout<<"error\n";
     return 0;
 }
