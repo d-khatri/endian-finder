@@ -1,0 +1,4 @@
+endian-finder
+=============
+
+finding endian 
