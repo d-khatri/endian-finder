@@ -9,7 +9,9 @@ using namespace std;
 int main()
 {
 	int i,j,k;
-	cout<<"this one is for another branch feature x\n";
-	cout<<"let's merge two branches and see what happens\n";
+	i=10;
+	i+=67;
+	cout<<i<<endl;
+	cout<<"LOL\n";
     return 0;
 }
